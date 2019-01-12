@@ -8,9 +8,11 @@ I find the default format for defining a chatbot a little intimidating though, s
 Requirements
 ------------
 
-You'll need to install the nltk package. If you have pip installed, try:
+It's Python2 for now.
 
-    pip install nltk
+You'll need to install the nltk and requests packages. If you have pip installed, try:
+
+    pip install nltk requests
 
 Example
 -------
