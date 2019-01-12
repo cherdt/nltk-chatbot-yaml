@@ -1,0 +1,20 @@
+---
+- match: intro
+  replies:
+    - i'm just learning to be a chatbot. try saying 'hello'
+- match: hello|hi|yo
+  replies:
+    - howdy
+    - hi
+    - salutations
+- match: bye|goodbye
+  replies:
+    - goodbye
+    - see ya
+    - later
+- match: ".*"
+  replies:
+    - sorry, I don't understand
+    - does not compute
+    - i'm really just learning
+...
