@@ -7,6 +7,14 @@
     - howdy
     - hi
     - salutations
+- match: "do you like ([^?]+)"
+  replies:
+    - "I love %1!"
+    - "I've never tried %1, but I'd like to"
+- match: .*talk
+  replies:
+    - I like to talk about you!
+    - What do you want to talk about?
 - match: bye|goodbye
   replies:
     - goodbye
